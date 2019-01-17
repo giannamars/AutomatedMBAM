@@ -6,6 +6,6 @@ with open('examples/models/ES.json') as data_file:
 
 path_to_data = 'examples/data/ES_zeros.h5'
 
-model = mbam.engine.Engine(my_model, path_to_data)
-model.run(printing=True)  # runs the geodesic
+#model = mbam.engine.Engine(my_model, path_to_data)
+#model.run(printing=True)  # runs the geodesic
 
